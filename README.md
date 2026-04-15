@@ -1,59 +1,40 @@
-# OsSimulator
+# 龙门OS 模拟器 (Longmen OS Simulator)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Simulador de sistema operacional com foco em demonstração comercial para o público chinês, construído com **React + Vite + TypeScript**.
 
-## Development server
+## O que já está pronto
 
-To start a local development server, run:
+- Desktop visual com identidade de produto.
+- Ícones de aplicativos (mercado, arquivos, navegador, analytics, configurações, terminal).
+- Janelas com abrir, minimizar, fechar e foco.
+- Barra de tarefas com relógio em formato `zh-CN`.
+- Conteúdo de produto orientado para pitch de monetização local.
+- Testes unitários essenciais com Vitest + Testing Library.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Como executar
 
 ```bash
-ng generate component component-name
+npm install
+npm run dev
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Aplicação em `http://localhost:5173` (porta padrão do Vite).
+
+## Validação
 
 ```bash
-ng generate --help
+npm run test
+npm run build
 ```
 
-## Building
+## Estratégia de produto (resumo)
 
-To build the project run:
+1. **Aquisição**: parceria com universidades e hubs de desenvolvedores.
+2. **Monetização**: taxa sobre apps no marketplace + licenciamento enterprise.
+3. **Retenção**: ecossistema de plugins locais, templates e integrações B2B.
 
-```bash
-ng build
-```
+## Próximas melhorias sugeridas
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Multi-idioma completo (i18n).
+- Sistema de login/demo por persona (estudante, dev, empresa).
+- Simulação de notificações em tempo real com dados mockados.
