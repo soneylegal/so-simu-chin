@@ -1,5 +1,7 @@
 # 龙门OS 模拟器 (Longmen OS Simulator)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Simulador de sistema operacional com foco em demonstração comercial para o público chinês, construído com **React + Vite + TypeScript**.
 
 ## O que já está pronto
